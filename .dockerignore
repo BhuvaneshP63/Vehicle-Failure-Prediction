@@ -1,0 +1,12 @@
+*
+!requirements.txt
+!app.py
+!api.py
+!dataset.csv
+!src/
+!src/*.py
+!.streamlit/
+!.streamlit/config.toml
+!models/
+!models/predictor.joblib
+models/*.pkl
