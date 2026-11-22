@@ -1,0 +1,8 @@
+pandas==3.0.2
+scikit-learn==1.8.0
+xgboost==3.2.0
+streamlit==1.56.0
+ucimlrepo==0.0.7
+joblib==1.5.3
+numpy==2.4.4
+tornado==6.5.5

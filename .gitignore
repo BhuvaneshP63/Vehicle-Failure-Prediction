@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+data/
+*.sqlite3*
+.env
+.streamlit/secrets.toml
+models/scaler.pkl
+models/label_encoder.pkl

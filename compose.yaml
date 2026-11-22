@@ -1,0 +1,16 @@
+services:
+  dashboard:
+    build: .
+    image: fleetscope-local
+    ports: ["127.0.0.1:8501:8501"]
+    volumes: ["operations:/app/data"]
+  api:
+    image: fleetscope-local
+    depends_on: [dashboard]
+    command: ["python", "api.py"]
+    environment:
+      VFP_BIND: 0.0.0.0
+    ports: ["127.0.0.1:8765:8765"]
+    volumes: ["operations:/app/data"]
+volumes:
+  operations:
