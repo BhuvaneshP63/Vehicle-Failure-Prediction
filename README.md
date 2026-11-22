@@ -1,5 +1,7 @@
 # FleetScope — Equipment Failure Prediction and Maintenance Review
 
+![FleetScope showing three simulated assets and a failure-score trend with two flagged readings above the review threshold](docs/fleet-overview.png)
+
 A local maintenance review workspace for the AI4I equipment dataset. The dashboard and ingestion API share a SQLite database. The sample replay assigns simulated asset IDs and timestamps to 24 selected records. Its class mix and trends do not represent a real fleet.
 
 ## Windows quick start
